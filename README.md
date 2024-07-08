@@ -1,4 +1,4 @@
-# Medical Bill OCR
+# MedImage ( Medical Bill OCR )
 
 This project extracts medicine names and their prices from medical bills using OCR (Optical Character Recognition).
 
@@ -51,7 +51,7 @@ This project allows users to upload images of medical bills, extracts relevant i
    ```sh
    git clone https://github.com/yourusername/medical-bill-ocr.git
    cd medical-bill-ocr
-
+   ```
 
 2. **Backend Setup:**
    ```sh
@@ -73,6 +73,8 @@ Create a `.env` file in the `backend` directory with the following contents:
 ```sh
 MONGO_URI=<your_mongodb_connection_string>
 ```
+
+**Note:** I have removed personal codes such as my MongoDB cluster link, and Firebase email and passwords. If you face any difficulty, please feel free to reach out. I would be happy to help!
 
 ## Usage
 
@@ -129,5 +131,3 @@ Contributions are welcome! Please follow these steps to contribute:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 ```
-
-You can create a file named `README.md` in your project directory and copy-paste the above content into it. Make sure to replace the placeholder URL `https://github.com/yourusername/medical-bill-ocr.git` with the actual URL of your repository.
